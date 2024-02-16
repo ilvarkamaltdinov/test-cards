@@ -10,3 +10,4 @@ app.use(ToastService);
 app.directive('tooltip', Tooltip);
 app.mount('#app')
 import 'primevue/resources/themes/aura-light-green/theme.css';
+import '@/assets/style/main.scss';

@@ -13,27 +13,3 @@
     </div>
   </header>
 </template>
-
-<style lang="scss">
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.header__controls {
-  display: flex;
-  gap: 8px;
-}
-
-.header__controls-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.header__controls-group-label {
-  color: #71747C;
-  font-size: 12px;
-}
-</style>

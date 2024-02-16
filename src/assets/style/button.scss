@@ -1,0 +1,58 @@
+.button {
+  border-radius: 4px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button--primary {
+  background: $color-primary;
+  color: $color-white;
+}
+
+.button--primary-wrapper {
+  background: $color-primary;
+  color: $color-white;
+}
+
+.button--primary-wrapper .p-button {
+  background: none;
+  border: none;
+}
+
+.button--opacity {
+  background: inherit;
+  color: #7D8CA1;
+}
+
+.button--add {
+  width: 100%;
+  color: #7D8CA1;
+  background: inherit;
+}
+
+.button--icon {
+  width: 18px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0;
+  background: inherit;
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+}
+
+.button--icon img {
+  max-width: 100%;
+  max-height: 100%;
+  pointer-events: none;
+  transition: .24s;
+  opacity: .64;
+}
+
+.button--icon-drag {
+  cursor: grab;
+}

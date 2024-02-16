@@ -1,0 +1,23 @@
+.form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__group-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form__controls {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 40px;
+}
+
+.form__group-label {
+  font-size: 12px;
+  color: #71747C;
+}

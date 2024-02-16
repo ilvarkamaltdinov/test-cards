@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #38393D;
+}
+
+.input {
+  background: #F0F3F8;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 8px 8px 8px 12px;
+}
+
+.input--short {
+  width: 80px;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.stock {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #7D8CA1;
+  background: #E5E9EF;
+  border: 1px solid #D2DAE4;
+  width: max-content;
+}
+

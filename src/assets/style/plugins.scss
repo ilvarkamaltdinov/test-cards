@@ -1,0 +1,75 @@
+
+.p-tooltip-text {
+  padding: 4px;
+  font-size: 10px;
+}
+
+.p-toast-message {
+  padding: 12px;
+
+}
+
+.p-toast-message-text {
+  margin-left: 8px;
+}
+
+.p-inline-message {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+}
+
+.p-inline-message svg {
+  display: none;
+}
+
+.p-inline-message-text {
+  font-size: 12px;
+}
+
+.p-dataview .p-dataview-header {
+  background: inherit;
+  border: none;
+}
+
+.p-dataview .p-dataview-footer {
+  background: inherit;
+  border: none;
+  margin-top: 12px;
+}
+
+.p-dropdown-item {
+  padding: 4px 12px;
+}
+
+.p-dropdown-label {
+  display: flex;
+  align-items: center;
+}
+
+.p-dataview-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: inherit;
+}
+
+.p-button {
+  border-radius: 4px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.p-button-icon-only {
+  padding: 0;
+}
+
+.p-menuitem-content {
+  padding: 8px 24px;
+}
+
+.p-button-label {
+  background: inherit;
+}
