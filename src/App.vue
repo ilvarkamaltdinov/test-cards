@@ -134,7 +134,7 @@
             <InlineMessage v-if="errors.score !== ''" severity="error">{{ errors.score }}</InlineMessage>
           </div>
           <div class="form__controls">
-            <Button v-if="!modalData.data.type === 'card'" type="submit" @click.prevent="validateForm"
+            <Button v-if="modalData.data.type !== 'card'" type="submit" @click.prevent="validateForm"
                     class="button button--primary">Добавить
             </Button>
             <Button v-if="modalData.data.type === 'card'" type="submit" @click.prevent="editCard"
