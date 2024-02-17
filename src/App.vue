@@ -116,6 +116,7 @@ const toast = useToast();
 const splitButtons = [{
   label: 'Сбросить localStorage',
   command: () => {
+    stages.value = []
     window.localStorage.removeItem('stages')
     window.localStorage.removeItem('cards')
     window.localStorage.removeItem('projects')
